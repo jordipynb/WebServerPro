@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/killer/CLionProjects/WebServerPro/main.c
+stdlib.h
+-
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+string.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+time.h
+-
+stdbool.h
+-
+dirent.h
+-
+structure.h
+/Users/killer/CLionProjects/WebServerPro/structure.h
+sys/uio.h
+-
+sys/sendfile.h
+-
+
+/Users/killer/CLionProjects/WebServerPro/structure.h
+err.h
+-
+errno.h
+-
+
